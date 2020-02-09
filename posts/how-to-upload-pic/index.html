@@ -47,7 +47,7 @@
                 <div class="stuff">
                     
                     <span>2020年2月9日</span>
-                    <span>字数 124</span>
+                    <span>字数 396</span>
                     
                     
                 </div>
@@ -55,8 +55,40 @@
                     <h2 id="github图床">Github图床</h2>
 <h3 id="简单说图床就是一个在网络上存储图片的地方目的是为了节省本地服务器空间加快图片打开速度主要是个人博客和网站使用">简单说图床就是一个在网络上存储图片的地方，目的是为了节省本地服务器空间，加快图片打开速度，主要是个人博客和网站使用</h3>
 <p>我这里主要说的是github图床
-<em>现在还有一个工具&mdash;<a href="https://www.jianshu.com/p/2756724a5dee">PicGo</a>，但这里不作解释，感兴趣的朋友可以自行前往查看</em>
-<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/IMG_0016(20200119-200455).JPG" alt=""></p>
+<em>现在还有一个工具&mdash;<a href="https://www.jianshu.com/p/2756724a5dee">PicGo</a>，但这里不作解释，感兴趣的朋友可以自行前往查看</em></p>
+<ol>
+<li>
+<p>新建一个repositories</p>
+</li>
+<li>
+<p>进入repositories下的wiki选项中</p>
+</li>
+<li>
+<p>复制wiki对应的克隆地址
+<img src="https://upload-images.jianshu.io/upload_images/2381669-b3c7db366410a379.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1040/format/webp" alt="img"></p>
+</li>
+<li>
+<p>在本地克隆项目
+<code>$ git clone https://github.com/你的github用户名/你的图床仓库名.wiki.git</code>
+<em><strong>这之后会生成一个文件夹，目录看Git上的提示</strong></em></p>
+</li>
+<li>
+<p>进入文件夹，将要上传的图片放在文件夹中
+<img src="https://upload-images.jianshu.io/upload_images/2381669-5bbf0e197bf9914a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/407/format/webp" alt="img"></p>
+</li>
+<li>
+<p>打开命令行，依次输入命令:</p>
+</li>
+</ol>
+<p>(```)
+$ git add photo.png</p>
+<pre><code>$ git commit -a -m &quot;update&quot;
+
+$ git push
+</code></pre>
+<p>(```)
+7. 现在已经将图片放置Github图床，图片的地址为：
+<a href="https://raw.githubusercontent.com/wiki/">https://raw.githubusercontent.com/wiki/</a>你的github用户名/你的图床仓库名/photo.png</p>
 
                     
                     <audio id="audio" loop="1" preload="auto" style="width: 100%;" controls="controls">

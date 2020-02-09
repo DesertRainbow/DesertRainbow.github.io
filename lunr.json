@@ -1,14 +1,5 @@
 [
     {
-        "uri": "/posts/1",
-        "title": "1",
-        "content": "哈哈呵呵得得",
-        "tags": [
-            "web",
-            "hexo"
-        ]
-    },
-    {
         "uri": "/posts/ForeverJobs",
         "title": "Forever Jobs",
         "content": "\nWe're here to put a dent in the universe. Otherwise why else even be here?\n\nLife is brief, and then you die, you know?\n\nStay hungry,Stay foolish\n\nBei",
@@ -16,5 +7,11 @@
             "tag1",
             "tag2"
         ]
+    },
+    {
+        "uri": "/posts/howtouploadpic",
+        "title": "How to Upload Pic",
+        "content": "如何上传图片到Github图床",
+        "tags": []
     }
 ]
