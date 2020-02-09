@@ -12,9 +12,18 @@
     
     
     <item>
+      <title>bio</title>
+      <link>https://DesertRainbow.github.io/series/bio/</link>
+      <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
+      
+      <guid>https://DesertRainbow.github.io/series/bio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>golang</title>
       <link>https://DesertRainbow.github.io/series/golang/</link>
-      <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
+      <pubDate>Wed, 13 Mar 2019 23:23:34 +0800</pubDate>
       
       <guid>https://DesertRainbow.github.io/series/golang/</guid>
       <description></description>

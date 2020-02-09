@@ -28,12 +28,17 @@
   </url>
   
   <url>
+    <loc>https://DesertRainbow.github.io/series/bio/</loc>
+    <lastmod>2019-04-11T23:36:51+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://DesertRainbow.github.io/categories/</loc>
     <lastmod>2019-04-11T23:36:51+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://DesertRainbow.github.io/series/golang/</loc>
+    <loc>https://DesertRainbow.github.io/posts/Forever-Jobs/</loc>
     <lastmod>2019-04-11T23:36:51+08:00</lastmod>
   </url>
   
@@ -63,17 +68,12 @@
   </url>
   
   <url>
-    <loc>https://DesertRainbow.github.io/posts/%E4%BD%A0%E8%B5%B0%E4%BA%86%E7%9C%9F%E5%A5%BD%E4%B8%8D%E7%84%B6%E6%80%BB%E6%8B%85%E5%BF%83%E4%BD%A0%E8%A6%81%E8%B5%B0/</loc>
-    <lastmod>2019-04-11T23:36:51+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://DesertRainbow.github.io/posts/1/</loc>
     <lastmod>2019-03-13T23:23:34+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://DesertRainbow.github.io/posts/2/</loc>
+    <loc>https://DesertRainbow.github.io/series/golang/</loc>
     <lastmod>2019-03-13T23:23:34+08:00</lastmod>
   </url>
   
