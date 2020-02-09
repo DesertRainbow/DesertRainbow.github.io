@@ -10,11 +10,7 @@
     },
     {
         "uri": "/posts/ForeverJobs",
-        "title": "Forever Jobs",
         "content": "\nWe're here to put a dent in the universe. Otherwise why else even be here?\n\nLife is brief, and then you die, you know?\n\nStay hungry,Stay foolish\n\nBei",
-        "tags": [
-            "tag1",
-            "tag2"
-        ]
+        "tags": []
     }
 ]
