@@ -6,28 +6,9 @@
     <description>Recent content in Tags on My hugoBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Apr 2019 23:36:51 +0800</lastBuildDate>
     
 	<atom:link href="https://DesertRainbow.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>tag1</title>
-      <link>https://DesertRainbow.github.io/tags/tag1/</link>
-      <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
-      
-      <guid>https://DesertRainbow.github.io/tags/tag1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tag2</title>
-      <link>https://DesertRainbow.github.io/tags/tag2/</link>
-      <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
-      
-      <guid>https://DesertRainbow.github.io/tags/tag2/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

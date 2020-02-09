@@ -6,19 +6,9 @@
     <description>Recent content in Series on My hugoBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Apr 2019 23:36:51 +0800</lastBuildDate>
     
 	<atom:link href="https://DesertRainbow.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>bio</title>
-      <link>https://DesertRainbow.github.io/series/bio/</link>
-      <pubDate>Thu, 11 Apr 2019 23:36:51 +0800</pubDate>
-      
-      <guid>https://DesertRainbow.github.io/series/bio/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
