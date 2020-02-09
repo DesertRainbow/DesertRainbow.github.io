@@ -9,6 +9,12 @@
         ]
     },
     {
+        "uri": "/posts/ForeverJobs",
+        "title": "Forever Jobs",
+        "content": "乔布斯",
+        "tags": []
+    },
+    {
         "uri": "/posts/howtouploadpic",
         "title": "How to Upload Pic",
         "content": "如何上传图片到Github图床",
