@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="google" content="notranslate">
+  <title>强大的静态blog工具-Hugo &middot; My hugoBlog</title>
+  <meta name="keywords" content="素锦, inspiration, customization, rainmeter, design, web, 壁纸, 设计, 收集, wallpaper, collection, jaku, icon">
+  <meta name="description" content="世界上每个角落都有人过着相似的人生">
+  <meta name="author" content="Kevin_Chou">
+  <link rel="icon" type="image/png" href="">
+  <link rel="stylesheet" href="/css/diaspora.css">
+  <link rel="stylesheet" href="/css/insight.css">
+  <link rel="stylesheet" href="/css/custom.css">
+</head><body class="loading">
+        <div id="loading"></div>
+				<div id="nav"></div>
+				<div class="nav-user"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+        <div class="bar">
+        </div>
+        <a class="icon-icon" href="javascript:history.back()">
+        </a>
+        <div title="播放/暂停" class="icon-play">
+        </div>
+        
+        <h3 class="subtitle" style="display: none;">
+        强大的静态blog工具-Hugo</h3>
+        <div class="social">
+            <div>
+                <div class="share">
+                    <a title="获取二维码" class="icon-wechat" href="javascript:;"></a>
+                </div>
+                <div id="qr"></div>
+            </div>
+        </div>
+        <div class="scrollbar" style="width: 1.1636%;"></div>
+    </div>
+    <div class="section">
+        <div class="article">
+            <div>
+                <h1 class="title">
+                强大的静态blog工具-Hugo</h1>
+                <div class="stuff">
+                    
+                    <span>2020年2月10日</span>
+                    <span>字数 698</span>
+                    
+                    
+                </div>
+                <div class="content">
+                    <h2 id="hugo-是一个基于-go-语言开发的静态网站生成器ssg目前由-bep-领衔开发hugo-的突出特点是简洁灵活高效目前有很多知名网站都在使用-hugonetlifylets-encryptipfscloudflare-developersdigitalocean-docs1password-等等与目前国内流行的-hexo-相比hugo-的速度可称为飞速在安装和使用上都是如此">&gt;Hugo 是一个基于 Go 语言开发的静态网站生成器（SSG），目前由 @bep 领衔开发，Hugo 的突出特点是简洁、灵活、高效，目前有很多知名网站都在使用 Hugo：Netlify、Let’s Encrypt、IPFS、Cloudflare Developers、DigitalOcean Docs、1Password 等等。与目前国内流行的 Hexo 相比，Hugo 的速度可称为飞速?——在安装和使用上都是如此</h2>
+<h3 id="在此之前我们需要先安装好git分布式版本管理工具这个工具可以很好的帮我们部署网站和上传后续的更新安装git请看廖雪峰大神无比详细的教程httpswwwliaoxuefengcomwiki896043488029600896067074338496"><em>在此之前我们需要先安装好Git分布式版本管理工具，这个工具可以很好的帮我们部署网站和上传后续的更新，安装git请看<a href="https://www.liaoxuefeng.com/wiki/896043488029600/896067074338496">廖雪峰大神无比详细的教程</a></em></h3>
+<h3 id="那就让我们开始搭建属于自己的hugoblog吧">那就让我们开始搭建属于自己的hugoBlog吧~~~</h3>
+<h4 id="先让我们来到hugo的官方网站httpsgohugoio">先让我们来到<a href="https://gohugo.io/">hugo的官方网站</a></h4>
+<h4 id="接着点击首页的quick-start快速开始">接着点击首页的quick start(快速开始)</h4>
+<p>这时候会导向hugo的安装教程,官方的教程还是挺详细的，还有视频，但是有几个点要注意一下的：</p>
+<ol>
+<li>
+<p>下载后解压到某个盘(不一定要在C盘内)，但路径一定不能出现中文，否则会有意想不到的问题出现</p>
+</li>
+<li>
+<p>接下来要配置hugo的环境变量，不然hugo会无法运行(环境变量的配置教程自行百度吧，不同系统会存在部分差别，根据自己的系统进行配置)</p>
+</li>
+<li>
+<p>环境变量配置好了，打开命令行窗口,输入hugo -h，出现如下图就代表我们的hugo环境配置好了
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210121845.png" alt="img"></p>
+</li>
+</ol>
+<p>这时候你可以使用hugo来建立一个站点了！</p>
+<p>这是<a href="https://www.gohugo.org/">hugo的中文文档</a>也很详细哦~可以参照这里进行配置
+比如说你的hugo放在D盘下，我这有两种办法来建立新站点，效果一样~</p>
+<ol>
+<li>
+<p>进入在D盘的hugo文件夹,如下图所示：
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210122838.png" alt="img"></p>
+</li>
+<li>
+<p>或者你使用命令符(同时按下WIN+R调出命令行)
+<code>cd 你要进入的文件夹</code></p>
+</li>
+</ol>
+<p>操作完成后输入命令:<code>hugo new site 你想创建站点的名字(别用中文...)</code>如下图所示：
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210123548.png" alt="img"></p>
+
+                    
+                    <audio id="audio" loop="1" preload="auto" style="width: 100%;" controls="controls">
+                        <source type="audio/mpeg" src="/mp3/ROOK1E,J%27san%20-%20pure%20imagination.mp3">
+                        <a href="/mp3/ROOK1E,J%27san%20-%20pure%20imagination.mp3">/mp3/ROOK1E,J&#39;san - pure imagination.mp3</a>
+                    </audio>
+                </div>
+                <div class="comment-wrap">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="relate">
+        <ul>
+            <h3 id="prev_next">
+                <em>相 关 文 章</em>
+                <span>
+                    <a href="javascript: window.scrollTo(0, 0);">
+                    返回顶部</a>
+                    
+                        <a href="https://DesertRainbow.github.io/posts/Forever-Jobs/" rel="prev">上一篇</a>
+                    
+                    
+                </span>
+            </h3>
+            
+            
+            
+        </ul>
+    </div>
+</div>
+<p style="text-align: center;">
+  <a style="color: inherit" target="_blank" href="https://github.com/honjun/hugo-theme-diaspora"></a>
+</p>
+
+<script>
+  var siteTitle = "My hugoBlog";
+</script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/diaspora.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/InsightSearch.js"></script>
+</body>
+</html>
+

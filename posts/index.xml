@@ -6,10 +6,19 @@
     <description>Recent content in Posts on My hugoBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Feb 2020 00:03:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2020 11:46:12 +0800</lastBuildDate>
     
 	<atom:link href="https://DesertRainbow.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>强大的静态blog工具-Hugo</title>
+      <link>https://DesertRainbow.github.io/posts/how-to-use-hugo/</link>
+      <pubDate>Mon, 10 Feb 2020 11:46:12 +0800</pubDate>
+      
+      <guid>https://DesertRainbow.github.io/posts/how-to-use-hugo/</guid>
+      <description>&amp;gt;Hugo 是一个基于 Go 语言开发的静态网站生成器（SSG），目前由 @bep 领衔开发，Hugo 的突出特点是简洁、灵活、</description>
+    </item>
     
     <item>
       <title>Forever Jobs</title>
