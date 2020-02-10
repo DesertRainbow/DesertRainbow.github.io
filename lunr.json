@@ -2,7 +2,7 @@
     {
         "uri": "/posts/ForeverJobs",
         "title": "Forever Jobs",
-        "content": "乔布斯",
+        "content": "\nWe're here to put a dent in the universe. Otherwise why else even be here?\n\n*活着就是为了改变世界，难道还有其他原因吗？*\n\nLife is brief, and then you die, you know?\n\n*人生短",
         "tags": []
     },
     {
@@ -14,7 +14,7 @@
     {
         "uri": "/posts/howtousehugo",
         "title": "强大的静态blog工具-Hugo",
-        "content": "\n## >Hugo 是一个基于 Go 语言开发的静态网站生成器（SSG），目前由 @bep 领衔开发，Hugo 的突出特点是简洁、灵活、高效，目前有很多知名网站都在使用 Hugo：Netlify、Let’s Encrypt、IPFS、Cloudflare Developers、DigitalOcea",
+        "content": "\n> Hugo 是一个基于 Go 语言开发的静态网站生成器（SSG），目前由 @bep 领衔开发，Hugo 的突出特点是简洁、灵活、高效，目前有很多知名网站都在使用 Hugo：Netlify、Let’s Encrypt、IPFS、Cloudflare Developers、DigitalOcean ",
         "tags": []
     }
 ]
