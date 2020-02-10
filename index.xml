@@ -6,10 +6,19 @@
     <description>Recent content on 皮皮威的hugo DesertRainbow</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Feb 2020 11:46:12 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2020 15:13:19 +0800</lastBuildDate>
     
 	<atom:link href="https://DesertRainbow.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Forever Jobs</title>
+      <link>https://DesertRainbow.github.io/posts/forever-Jobs/</link>
+      <pubDate>Mon, 10 Feb 2020 15:13:19 +0800</pubDate>
+      
+      <guid>https://DesertRainbow.github.io/posts/forever-Jobs/</guid>
+      <description>We&#39;re here to put a dent in the universe. Otherwise why else even be here? 活着就是为了改变世界，难道还有其他原因吗？ Life is brief, and then you die, you know? 人生短暂，</description>
+    </item>
     
     <item>
       <title>强大的静态blog工具-Hugo</title>
@@ -18,15 +27,6 @@
       
       <guid>https://DesertRainbow.github.io/posts/how-to-use-hugo/</guid>
       <description>Hugo 是一个基于 Go 语言开发的静态网站生成器（SSG），目前由 @bep 领衔开发，Hugo 的突出特点是简洁、灵活、</description>
-    </item>
-    
-    <item>
-      <title>Forever Jobs</title>
-      <link>https://DesertRainbow.github.io/posts/Forever-Jobs/</link>
-      <pubDate>Mon, 10 Feb 2020 00:03:00 +0800</pubDate>
-      
-      <guid>https://DesertRainbow.github.io/posts/Forever-Jobs/</guid>
-      <description>We&#39;re here to put a dent in the universe. Otherwise why else even be here? 活着就是为了改变世界，难道还有其他原因吗？ Life is brief, and then you die, you know? 人生短暂，</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Sat, 20 Apr 2019 23:10:44 +0800</pubDate>
       
       <guid>https://DesertRainbow.github.io/links/</guid>
-      <description>本页面为 hugo素锦主题 友情链接承载页面。申请友链请加入Hugo&amp;amp;Hexo博客群：80151</description>
+      <description></description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Sat, 20 Apr 2019 13:29:27 +0800</pubDate>
       
       <guid>https://DesertRainbow.github.io/archives/</guid>
-      <description></description>
+      <description>暂时还没啥成就呢，毕竟我还只是个大一的苦逼学生，有了再写吧</description>
     </item>
     
   </channel>
