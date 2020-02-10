@@ -8,7 +8,13 @@
     {
         "uri": "/posts/howtouploadpic",
         "title": "使用Github图床",
-        "content": "\n## Github图床\n\n### 简单说图床就是一个在网络上存储图片的地方，目的是为了节省本地服务器空间，加快图片打开速度，主要是个人博客和网站使用\n\n### 我这里主要说的是github图床\n\n*现在还有一个工具---[PicGo](https://www.jianshu.com/p/27567",
+        "content": "\n## Github图床\n\n### 简单说图床就是一个在网络上存储图片的地方，目的是为了节省本地服务器空间，加快图片打开速度，主要是个人博客和网站使用\n\n### 我这里主要说的是github图床\n\n*现在还有一个工具---[PicGo，但这里不作解释，感兴趣的朋友可以自行前往查看](https://",
+        "tags": []
+    },
+    {
+        "uri": "/posts/howtousehugo",
+        "title": "强大的静态blog工具-Hugo",
+        "content": "\n## >Hugo 是一个基于 Go 语言开发的静态网站生成器（SSG），目前由 @bep 领衔开发，Hugo 的突出特点是简洁、灵活、高效，目前有很多知名网站都在使用 Hugo：Netlify、Let’s Encrypt、IPFS、Cloudflare Developers、DigitalOcea",
         "tags": []
     }
 ]

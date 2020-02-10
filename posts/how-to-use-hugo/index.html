@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="google" content="notranslate">
-  <title>强大的静态blog工具-Hugo &middot; My hugoBlog</title>
+  <title>强大的静态blog工具-Hugo &middot; 皮皮威的hugo DesertRainbow</title>
   <meta name="keywords" content="素锦, inspiration, customization, rainmeter, design, web, 壁纸, 设计, 收集, wallpaper, collection, jaku, icon">
   <meta name="description" content="世界上每个角落都有人过着相似的人生">
   <meta name="author" content="Kevin_Chou">
@@ -47,12 +47,14 @@
                 <div class="stuff">
                     
                     <span>2020年2月10日</span>
-                    <span>字数 698</span>
+                    <span>字数 2258</span>
                     
                     
                 </div>
                 <div class="content">
-                    <h2 id="hugo-是一个基于-go-语言开发的静态网站生成器ssg目前由-bep-领衔开发hugo-的突出特点是简洁灵活高效目前有很多知名网站都在使用-hugonetlifylets-encryptipfscloudflare-developersdigitalocean-docs1password-等等与目前国内流行的-hexo-相比hugo-的速度可称为飞速在安装和使用上都是如此">&gt;Hugo 是一个基于 Go 语言开发的静态网站生成器（SSG），目前由 @bep 领衔开发，Hugo 的突出特点是简洁、灵活、高效，目前有很多知名网站都在使用 Hugo：Netlify、Let’s Encrypt、IPFS、Cloudflare Developers、DigitalOcean Docs、1Password 等等。与目前国内流行的 Hexo 相比，Hugo 的速度可称为飞速?——在安装和使用上都是如此</h2>
+                    <blockquote>
+<p>Hugo 是一个基于 Go 语言开发的静态网站生成器（SSG），目前由 @bep 领衔开发，Hugo 的突出特点是简洁、灵活、高效，目前有很多知名网站都在使用 Hugo：Netlify、Let’s Encrypt、IPFS、Cloudflare Developers、DigitalOcean Docs、1Password 等等。与目前国内流行的 Hexo 相比，Hugo 的速度可称为飞速?——在安装和使用上都是如此</p>
+</blockquote>
 <h3 id="在此之前我们需要先安装好git分布式版本管理工具这个工具可以很好的帮我们部署网站和上传后续的更新安装git请看廖雪峰大神无比详细的教程httpswwwliaoxuefengcomwiki896043488029600896067074338496"><em>在此之前我们需要先安装好Git分布式版本管理工具，这个工具可以很好的帮我们部署网站和上传后续的更新，安装git请看<a href="https://www.liaoxuefeng.com/wiki/896043488029600/896067074338496">廖雪峰大神无比详细的教程</a></em></h3>
 <h3 id="那就让我们开始搭建属于自己的hugoblog吧">那就让我们开始搭建属于自己的hugoBlog吧~~~</h3>
 <h4 id="先让我们来到hugo的官方网站httpsgohugoio">先让我们来到<a href="https://gohugo.io/">hugo的官方网站</a></h4>
@@ -85,6 +87,83 @@
 </ol>
 <p>操作完成后输入命令:<code>hugo new site 你想创建站点的名字(别用中文...)</code>如下图所示：
 <img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210123548.png" alt="img"></p>
+<h3 id="至此这样你就创建了一个属于自己的站点了">至此，这样你就创建了一个属于自己的站点了~</h3>
+<p>接下来你需要一款好用的编辑工具，我在此推荐<a href="https://code.visualstudio.com/">微软的VisualStudioCode(VScode)</a>
+你还可以在VScode里添加markdown工具，提升你撰写文章的效率(添加工具自己在软件内探索，我在此不再赘述啦~)</p>
+<h2 id="接下来就开始正式创作你的blog了">接下来就开始正式创作你的blog了~~~</h2>
+<p>接下来我们进入<a href="https://gohugo.io/">hugo官方网站</a></p>
+<ol>
+<li>找到Themes一栏
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210124901.png" alt="img"></li>
+<li>一开始咱们先来个简单点的主题吧~<a href="https://themes.gohugo.io/hugo-theme-bootstrap4-blog/">Hugo Bootstrap v4 Blog</a></li>
+<li><img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210131215.png" alt="img">
+点击进入下载后如图：
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210131435.png" alt="img"></li>
+<li>下载.zip压缩包，解压到如图所示位置，并删除后缀-master：
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210131804.png" alt="img">这里注意不要文件夹套娃哦~</li>
+<li>进入exampleSite文件夹
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210132709.png" alt="img"></li>
+<li>复制里面的所有文件
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210132928.png" alt="img"></li>
+<li>粘贴到你的站点根目录下(有提示有重复是否替换的全部选择是)
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210133214.png" alt="img"></li>
+<li>替换完成后，双击打开config.toml(配置文件)
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210133603.png" alt="img"></li>
+<li>我们在VScode里编辑一下配置文件吧~
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210133951.png" alt="img"></li>
+</ol>
+<blockquote>
+<p>baseurl = &ldquo;<a href="https://example.org/%22">https://example.org/&quot;</a>
+这是你以后网站的链接，比如说你寄管在Github上，到时候记得修改这里
+languageCode = &ldquo;en-us&rdquo;
+这个是配置语言环境，我们就可以修改成中文环境&quot;zh-CN&rdquo;
+title = &ldquo;Hugo Bootstrap v4 Blog&quot;这个就是你这个网站的名字啦
+theme = &ldquo;hugo-theme-bootstrap4-blog&quot;这项不需要改动</p>
+</blockquote>
+<h3 id="接下来的就是主页显示多少篇文章预览多少字数还要作者信息侧边栏配置之类的只要你熟用有道翻译都是可以轻松使用上滴这些就留给你自己探索啦">接下来的就是主页显示多少篇文章；预览多少字数；还要作者信息；侧边栏配置之类的，只要你熟用有道翻译，都是可以轻松使用上滴！这些就留给你自己探索啦~</h3>
+<h2 id="posts文件夹中的是你的文章想修改或者删除在这里进行但是写一篇新文章你得往下看">posts文件夹中的是你的文章，想修改或者删除在这里进行，但是写一篇新文章你得往下看</h2>
+<h3 id="我们在站点的根目录下打开命令行什么是根目录什么是命令行往上拉回去看">我们在站点的根目录下打开命令行，什么是根目录什么是命令行往上拉回去看</h3>
+<p>我们在这敲下命令
+<code>hugo new posts/你的文章名字.md</code></p>
+<blockquote>
+<p>posts/是我们在posts文件夹下创建文章，这里的就是你正常的文章，但是如果不在posts/下创建会怎么样呢，往下看
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210135938.png" alt="img">
+提示创建成功以后打开文件夹你会看到刚刚新创建的markdown文件
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210140552.png" alt="img">
+title: &ldquo;The First Blog&rdquo;
+这个是这篇文章的标题
+date: 2020-02-10T13:59:23+08:00
+日期是根据你敲下命令行的瞬间记录下的
+draft: true
+这个若为true代表为草稿，我们让他变为文章需要改为false
+注：上下各有的&rdquo;&mdash;&ldquo;不要手贱删除了啊
+写好你的内容以后我们还是在站点的根目录打开命令行，敲下命令
+<code>hugo server</code>
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210141046.png" alt="img">
+看到链接了吗(http://localhost:50420/)
+你的可能和我不一样，但这就是你的个人站点了，不过这只是一个只能在你这台电脑上访问的站点了，这时候hugo的优势也体现出来了，一个是生成速度快，另外一个是修改markdown文件可以实时修改网站，只需要在VScode里按下ctrl+s保存内容即可
+接下来还是在站点根目录下运行命令行
+<code>hugo</code>
+<img src="https://raw.githubusercontent.com/DesertRainbow/OdysseyPicGo/master/img/20200210141842.png" alt="img">
+这时候你再回去看你的站点文件夹，你会发现多了一个public文件夹，这里面就是这个工具根据主题生成的html(网页)文件，接下来只需要把这个文件夹里的内容全部上传到网上即可，这里我推荐寄管在github下，这样是免费的，比较适合个人博客，github+hugo的教程我会在下次上传，Enjoy~~~</p>
+</blockquote>
+<p>再复习一下步骤吧：
+首先我们创建站点
+再把下载好的主题放入themes文件夹当中，记得去掉后缀名
+然后把示例站点中的文件复制粘贴到站点根目录下，全部选择替换
+接着修改相关配置文件
+开始编辑你的文章
+最后使用hugo命令生成public文件夹，文件夹内的就是网站文件了
+最最后上传到服务器或者托管到其他网站(github+hugo教程下次上传)
+这就大功告成啦</p>
+<h3 id="到这里这篇文章就算结束了hugo相比与其他工具而言有很多优势尤其是文章数量上去以后但是也有一些缺点就是目前使用人数不是非常多相关教程比较少但是用hugo战未来嘛我是皮皮威如果你有任何使用上的问题或者我的文章哪里出现错误纰漏等非常欢迎跟我讲哈只要是我力所能及之处">到这里这篇文章就算结束了，hugo相比与其他工具而言有很多优势，尤其是文章数量上去以后但是也有一些缺点就是目前使用人数不是非常多，相关教程比较少，但是用hugo战未来嘛~我是皮皮威，如果你有任何使用上的问题或者我的文章哪里出现错误纰漏等，非常欢迎跟我讲哈！只要是我力所能及之处</h3>
+<blockquote>
+<p>作者：皮皮威
+QQ:1171344659
+WX:17770839817
+BGM:ROOK1E,J'san - pure imagination</p>
+</blockquote>
+<h4 id="life-is-brief-and-then-you-die-you-know">Life is brief, and then you die, you know?</h4>
 
                     
                     <audio id="audio" loop="1" preload="auto" style="width: 100%;" controls="controls">
@@ -122,7 +201,7 @@
 </p>
 
 <script>
-  var siteTitle = "My hugoBlog";
+  var siteTitle = "皮皮威的hugo DesertRainbow";
 </script>
 <script src="/js/jquery.min.js"></script>
 <script src="/js/plugin.js"></script>
